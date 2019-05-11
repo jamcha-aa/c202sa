@@ -11,7 +11,7 @@ addons:
         packages:
             - g++-4.8
 install:
-    - npm install -g vuepress@next && npm install -D @vuepress/plugin-back-to-top@next && npm install markdown-it-footnote --save
+    - npm install -g vuepress@next && yarn add @vuepress/plugin-back-to-top@next -D
 script:
     - npm run docs:build
 cache:
