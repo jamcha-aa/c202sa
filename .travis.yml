@@ -11,7 +11,8 @@ addons:
         packages:
             - g++-4.8
 install:
-    - npm install -g vuepress@next && yarn add @vuepress/plugin-back-to-top@next -D
+    - npm install -g vuepress@next
+    - yarn add @vuepress/plugin-back-to-top -D
 script:
     - npm run docs:build
 cache:
