@@ -1,7 +1,7 @@
 const summary = require('./summary.js');
 
 module.exports = {
-    title: 'Chromebook C202SAと最後の2年間',
+    title: 'C202SAと最後の2年間',
     description: 'かわいい相棒。',
     locales: {
         '/': {
