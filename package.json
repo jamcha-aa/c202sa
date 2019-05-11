@@ -2,5 +2,11 @@
     "scripts": {
         "docs:dev": "vuepress dev",
         "docs:build": "vuepress build"
+    },
+    "devDependencies": {
+        "@vuepress/plugin-back-to-top": "^1.0.0-alpha.47"
+    },
+    "dependencies": {
+        "markdown-it-footnote": "^3.0.1"
     }
 }
