@@ -28,5 +28,10 @@ module.exports = {
     ],
     base: '/c202sa/',
     dest: '.vuepress/dist',
-    plugins: ['@vuepress/back-to-top']
+    plugins: ['@vuepress/back-to-top'],
+    markdown: {
+        config: md => {
+            md.use(require('markdown-it-footnote'));
+        }
+    }
 }
